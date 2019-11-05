@@ -4,13 +4,13 @@ This example performs the following steps to register object types for the [Obje
 
  - Declares the _DataSource_ and _DataSource2_ classes that should provide data to reports. The **DisplayName** attribute is applied to the _DataSource_ class to specify a custom display name for the **Report Wizard** and **Data Source Wizard**. The class's name and namespace are used for the _DataSource2_ class.
 
- - Implements the [IObjectDataSourceWizardTypeProvider](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Web.IObjectDataSourceWizardTypeProvider) to list data types.
+ - Implements the [IObjectDataSourceWizardTypeProvider](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Web.IObjectDataSourceWizardTypeProvider) interface to list data types.
 
  - Implements the [IObjectDataSourceConstructorFilterService](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Web.IObjectDataSourceConstructorFilterService) interface to list only specific data type constructors in the **Report Wizard** and **Data Source Wizard**.
 
  - Implements the [IObjectDataSourceMemberFilterService](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Web.IObjectDataSourceMemberFilterService) interface to list only specific data members in the **Report Wizard** and **Data Source Wizard**.
 
- - The [RegisterObjectDataSourceWizardTypeProvider&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceWizardTypeProvider--1), [RegisterObjectDataSourceConstructorFilterService&lt;T>()](https://docs.devexpress.com/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceConstructorFilterService--1) and [RegisterObjectDataSourceMemberFilterService&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceMemberFilterService--1) methods are called at the application's startup to register the interface implementations.
+ - The [RegisterObjectDataSourceWizardTypeProvider&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceWizardTypeProvider--1), [RegisterObjectDataSourceConstructorFilterService&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceConstructorFilterService--1) and [RegisterObjectDataSourceMemberFilterService&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceMemberFilterService--1) methods are called at the application's startup to register the interface implementations.
 
 ## Files to look at
 
