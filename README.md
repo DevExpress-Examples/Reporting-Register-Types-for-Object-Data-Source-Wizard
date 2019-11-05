@@ -16,21 +16,21 @@ This example performs the following steps to register object types for the [Obje
 
 ASP.NET WebForms:
 
-- [ObjectDataSource/SampleObjectTypes.cs](./WebForms/WebForms/ObjectDataSource/SampleObjectTypes.cs)
-- [Services/CustomObjectDataSourceWizardTypeProvider.cs](./WebForms/WebForms/Services/CustomObjectDataSourceWizardTypeProvider.cs)
-- [Global.asax.cs](./WebForms/WebForms/Global.asax.cs)
+- [ObjectDataSource/SampleObjectTypes.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/WebForms/WebForms/ObjectDataSource/SampleObjectTypes.cs)
+- [Services/CustomObjectDataSourceWizardTypeProvider.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/WebForms/WebForms/Services/CustomObjectDataSourceWizardTypeProvider.cs)
+- [Global.asax.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/WebForms/WebForms/Global.asax.cs)
 
 ASP.NET MVC:
 
-- [ObjectDataSource/SampleObjectTypes.cs](./MVC/MVC/ObjectDataSource/SampleObjectTypes.cs)
-- [Services/CustomObjectDataSourceWizardTypeProvider.cs](./MVC/MVC/Services/CustomObjectDataSourceWizardTypeProvider.cs)
-- [Global.asax.cs](./MVC/MVC/Global.asax.cs)
+- [ObjectDataSource/SampleObjectTypes.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/MVC/MVC/ObjectDataSource/SampleObjectTypes.cs)
+- [Services/CustomObjectDataSourceWizardTypeProvider.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/MVC/MVC/Services/CustomObjectDataSourceWizardTypeProvider.cs)
+- [Global.asax.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/MVC/MVC/Global.asax.cs)
 
 ASP.NET Core:
 
-- [ObjectDataSource/SampleObjectTypes.cs](./ASPNetCore/ASPNetCore/ObjectDataSource/SampleObjectTypes.cs)
-- [Services/CustomObjectDataSourceWizardTypeProvider.cs](./ASPNetCore/ASPNetCore/Services/CustomObjectDataSourceWizardTypeProvider.cs)
-- [Startup.cs](./ASPNetCore/ASPNetCore/Startup.cs)
+- [ObjectDataSource/SampleObjectTypes.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/ASPNetCore/ASPNetCore/ObjectDataSource/SampleObjectTypes.cs)
+- [Services/CustomObjectDataSourceWizardTypeProvider.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/ASPNetCore/ASPNetCore/Services/CustomObjectDataSourceWizardTypeProvider.cs)
+- [Startup.cs](CS/Reporting-Register-Types-for-Object-Data-Source-Wizard/ASPNetCore/ASPNetCore/Startup.cs)
 
 ## Documentation
 
