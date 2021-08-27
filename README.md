@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/219587870/2020.2)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830402)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Register Types for Object Data Source Wizard
 
 This example performs the following steps to register object types for the [Object Data Source Wizard](https://docs.devexpress.com/XtraReports/401220), which allows users to create an [Object Data Source](https://docs.devexpress.com/XtraReports/119313):
