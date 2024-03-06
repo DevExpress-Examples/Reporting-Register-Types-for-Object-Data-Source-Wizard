@@ -24,6 +24,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.SQLite" Version="1.0.116" />
-    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.2.*-*" />
   </ItemGroup>
 </Project>
