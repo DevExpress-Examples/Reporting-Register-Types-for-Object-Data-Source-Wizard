@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830402)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Register Types for Object Data Source Wizard
+# Reporting for Web - Register Types for Object Data Source Wizard
 
 This example performs the following steps to register object types for the [Object Data Source Wizard](https://docs.devexpress.com/XtraReports/401220), which allows users to create an [Object Data Source](https://docs.devexpress.com/XtraReports/119313):
 
@@ -16,7 +16,7 @@ This example performs the following steps to register object types for the [Obje
 
  - The [RegisterObjectDataSourceWizardTypeProvider&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceWizardTypeProvider--1), [RegisterObjectDataSourceConstructorFilterService&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceConstructorFilterService--1) and [RegisterObjectDataSourceMemberFilterService&lt;T>()](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceMemberFilterService--1) methods are called at the application's startup to register the interface implementations.
 
-## Files to look at
+## Files to Review
 
 ASP.NET WebForms:
 
