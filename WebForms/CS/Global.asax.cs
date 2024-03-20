@@ -1,5 +1,6 @@
 using System;
 using DevExpress.XtraReports.Web;
+using WebForms.SampleObjectTypes;
 using WebForms.Services;
 
 namespace WebForms {
@@ -15,6 +16,8 @@ namespace WebForms {
             DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceConstructorFilterService<CustomObjectDataSourceConstructorFilterService>();
             DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceMemberFilterService<CustomObjectDataSourceMemberFilterService>();
             DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceWizardTypeProvider<CustomObjectDataSourceWizardTypeProvider>();
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(DataSource));
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(DataSource2));
             ASPxReportDesigner.StaticInitialize();
 
             DevExpress.Web.ASPxWebControl.CallbackError += new EventHandler(Application_Error);

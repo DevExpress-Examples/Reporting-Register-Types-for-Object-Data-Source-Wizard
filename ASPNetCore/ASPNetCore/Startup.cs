@@ -14,6 +14,7 @@ using DevExpress.XtraReports.Web.Extensions;
 using DevExpress.DataAccess.Web;
 using ASPNetCore.Services;
 using Microsoft.Extensions.Hosting;
+using ASPNetCore.SampleObjectTypes;
 
 namespace ASPNetCore {
     public class Startup {
@@ -45,6 +46,8 @@ namespace ASPNetCore {
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) {
+			DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(DataSource));
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(DataSource2));
             DevExpress.XtraReports.Configuration.Settings.Default.UserDesignerOptions.DataBindingMode = DevExpress.XtraReports.UI.DataBindingMode.Expressions;
             app.UseSession();
             app.UseDevExpressControls();

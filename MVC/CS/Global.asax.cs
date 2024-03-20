@@ -21,6 +21,8 @@ namespace MVC {
             DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceMemberFilterService<CustomObjectDataSourceMemberFilterService>();
             DevExpress.XtraReports.Web.ReportDesigner.DefaultReportDesignerContainer.RegisterObjectDataSourceWizardTypeProvider<CustomObjectDataSourceWizardTypeProvider>();
             MVCxReportDesigner.StaticInitialize();
+			DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(DataSource));
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(DataSource2));
 
             AreaRegistration.RegisterAllAreas();
 
