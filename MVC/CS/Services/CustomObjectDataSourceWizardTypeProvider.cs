@@ -1,10 +1,17 @@
+#region usings_1
 using System;
 using System.Collections.Generic;
+#endregion
+#region usings_2
 using System.Linq;
 using System.Reflection;
+#endregion
+#region usings
 using DevExpress.DataAccess.Web;
+#endregion
 
 namespace MVC.Services {
+    #region CustomObjectDataSourceWizardTypeProvider
     // ...
     public class CustomObjectDataSourceWizardTypeProvider : IObjectDataSourceWizardTypeProvider {
         public IEnumerable<Type> GetAvailableTypes(string context) {
@@ -14,7 +21,9 @@ namespace MVC.Services {
             };
         }
     }
+    #endregion
 
+    #region CustomObjectDataSourceConstructorFilterService
     // ...
     public class CustomObjectDataSourceConstructorFilterService : IObjectDataSourceConstructorFilterService {
         public IEnumerable<ConstructorInfo> Filter(Type dataSourceType, IEnumerable<ConstructorInfo> constructors) {
@@ -24,7 +33,9 @@ namespace MVC.Services {
             return constructors.Where(x => x.GetParameters().Length > 0);
         }
     }
+    #endregion
 
+    #region CustomObjectDataSourceMemberFilterService
     // ...
     public class CustomObjectDataSourceMemberFilterService : IObjectDataSourceMemberFilterService {
         public IEnumerable<MemberInfo> Filter(Type dataSourceType, IEnumerable<MemberInfo> members) {
@@ -38,4 +49,5 @@ namespace MVC.Services {
             });
         }
     }
+    #endregion
 }
